@@ -1,0 +1,21 @@
+[2023-11-24T14:34:13.837+0700] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2023-11-24T14:34:13.837+0700] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-11-24T14:34:13.837+0700] {manager.py:489} INFO - Checking for new files in /Users/vuong/labs/pythonProject/airflow_demo/dags every 300 seconds
+[2023-11-24T14:34:13.837+0700] {manager.py:755} INFO - Searching for files in /Users/vuong/labs/pythonProject/airflow_demo/dags
+[2023-11-24T14:34:13.843+0700] {manager.py:758} INFO - There are 1 files in /Users/vuong/labs/pythonProject/airflow_demo/dags
+[2023-11-24T14:34:15.631+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vuong/labs/pythonProject/airflow_demo/dags/hello_world_dag/hello_world_dag.py                           1           0  1.69s           2023-11-24T07:34:15
+================================================================================
+[2023-11-24T14:34:48.081+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vuong/labs/pythonProject/airflow_demo/dags/hello_world_dag/hello_world_dag.py                           1           0  1.62s           2023-11-24T07:34:48
+================================================================================

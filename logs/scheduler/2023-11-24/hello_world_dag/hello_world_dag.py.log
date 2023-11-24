@@ -1,0 +1,18 @@
+[2023-11-24T14:34:14.783+0700] {processor.py:157} INFO - Started process (PID=78137) to work on /Users/vuong/labs/pythonProject/airflow_demo/dags/hello_world_dag/hello_world_dag.py
+[2023-11-24T14:34:14.783+0700] {processor.py:829} INFO - Processing file /Users/vuong/labs/pythonProject/airflow_demo/dags/hello_world_dag/hello_world_dag.py for tasks to queue
+[2023-11-24T14:34:14.784+0700] {logging_mixin.py:154} INFO - [2023-11-24T14:34:14.784+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/vuong/labs/pythonProject/airflow_demo/dags/hello_world_dag/hello_world_dag.py
+[2023-11-24T14:34:14.820+0700] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /Users/vuong/labs/pythonProject/airflow_demo/dags/hello_world_dag/hello_world_dag.py
+[2023-11-24T14:34:15.412+0700] {logging_mixin.py:154} INFO - [2023-11-24T14:34:15.412+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-24T14:34:15.421+0700] {logging_mixin.py:154} INFO - [2023-11-24T14:34:15.421+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-24T14:34:15.424+0700] {logging_mixin.py:154} INFO - [2023-11-24T14:34:15.424+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-24T14:34:15.425+0700] {logging_mixin.py:154} INFO - [2023-11-24T14:34:15.425+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-24T14:34:15.430+0700] {logging_mixin.py:154} INFO - [2023-11-24T14:34:15.429+0700] {dag.py:2963} INFO - Creating ORM DAG for hello_world_dag
+[2023-11-24T14:34:15.433+0700] {logging_mixin.py:154} INFO - [2023-11-24T14:34:15.433+0700] {dag.py:3722} INFO - Setting next_dagrun for hello_world_dag to 2023-11-24T07:33:00+00:00, run_after=2023-11-24T07:34:00+00:00
+[2023-11-24T14:34:15.446+0700] {processor.py:179} INFO - Processing /Users/vuong/labs/pythonProject/airflow_demo/dags/hello_world_dag/hello_world_dag.py took 0.663 seconds
+[2023-11-24T14:34:47.739+0700] {processor.py:157} INFO - Started process (PID=78474) to work on /Users/vuong/labs/pythonProject/airflow_demo/dags/hello_world_dag/hello_world_dag.py
+[2023-11-24T14:34:47.739+0700] {processor.py:829} INFO - Processing file /Users/vuong/labs/pythonProject/airflow_demo/dags/hello_world_dag/hello_world_dag.py for tasks to queue
+[2023-11-24T14:34:47.740+0700] {logging_mixin.py:154} INFO - [2023-11-24T14:34:47.740+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/vuong/labs/pythonProject/airflow_demo/dags/hello_world_dag/hello_world_dag.py
+[2023-11-24T14:34:47.786+0700] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /Users/vuong/labs/pythonProject/airflow_demo/dags/hello_world_dag/hello_world_dag.py
+[2023-11-24T14:34:47.931+0700] {logging_mixin.py:154} INFO - [2023-11-24T14:34:47.931+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-24T14:34:47.938+0700] {logging_mixin.py:154} INFO - [2023-11-24T14:34:47.938+0700] {dag.py:3722} INFO - Setting next_dagrun for hello_world_dag to 2023-11-24T07:33:00+00:00, run_after=2023-11-24T07:34:00+00:00
+[2023-11-24T14:34:47.957+0700] {processor.py:179} INFO - Processing /Users/vuong/labs/pythonProject/airflow_demo/dags/hello_world_dag/hello_world_dag.py took 0.219 seconds
