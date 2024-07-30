@@ -1,0 +1,11 @@
+[2023-11-24T17:17:04.274+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_world_dag.hello_world_task scheduled__2023-11-24T10:16:00+00:00 [queued]>
+[2023-11-24T17:17:04.276+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_world_dag.hello_world_task scheduled__2023-11-24T10:16:00+00:00 [queued]>
+[2023-11-24T17:17:04.276+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2023-11-24T17:17:04.284+0700] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): hello_world_task> on 2023-11-24 10:16:00+00:00
+[2023-11-24T17:17:04.287+0700] {standard_task_runner.py:57} INFO - Started process 78585 to run task
+[2023-11-24T17:17:04.290+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hello_world_dag', 'hello_world_task', 'scheduled__2023-11-24T10:16:00+00:00', '--job-id', '156', '--raw', '--subdir', 'DAGS_FOLDER/hello_world_dag/hello_world_dag.py', '--cfg-path', '/var/folders/y6/1jc_sv5133l2w19t8cj_c4s40000gn/T/tmpr3lbvldr']
+[2023-11-24T17:17:04.292+0700] {standard_task_runner.py:85} INFO - Job 156: Subtask hello_world_task
+[2023-11-25T00:30:44.240+0700] {local_task_job_runner.py:205} ERROR - Heartbeat time limit exceeded!
+[2023-11-25T00:30:44.250+0700] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 78585. PIDs of all processes in the group: [78585]
+[2023-11-25T00:30:44.250+0700] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 78585
+[2023-11-25T00:30:44.256+0700] {process_utils.py:79} INFO - Process psutil.Process(pid=78585, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='17:17:04') (78585) terminated with exit code Negsignal.SIGTERM

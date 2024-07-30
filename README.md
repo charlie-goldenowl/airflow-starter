@@ -1,3 +1,12 @@
+### init db
+```shell
+ airflow db init   
+ ```
+
+### create default user:
+```shell
+airflow users  create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin
+```
 ### start server (terminal1) on port 0.0.0.0:8080 (default)
 ```shell
 airflow webserver
@@ -73,10 +82,7 @@ airflow dags list
 ```
 
 
-### create default user:
-```shell
-airflow users  create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin
-```
+
  
 
 fix issues:

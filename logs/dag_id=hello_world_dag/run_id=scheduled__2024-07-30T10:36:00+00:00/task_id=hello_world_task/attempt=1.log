@@ -1,0 +1,26 @@
+[2024-07-30T17:37:03.655+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_world_dag.hello_world_task scheduled__2024-07-30T10:36:00+00:00 [queued]>
+[2024-07-30T17:37:03.658+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_world_dag.hello_world_task scheduled__2024-07-30T10:36:00+00:00 [queued]>
+[2024-07-30T17:37:03.658+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2024-07-30T17:37:03.665+0700] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): hello_world_task> on 2024-07-30 10:36:00+00:00
+[2024-07-30T17:37:03.667+0700] {standard_task_runner.py:57} INFO - Started process 50171 to run task
+[2024-07-30T17:37:03.670+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hello_world_dag', 'hello_world_task', 'scheduled__2024-07-30T10:36:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/hello_world_dag/hello_world_dag.py', '--cfg-path', '/var/folders/y6/1jc_sv5133l2w19t8cj_c4s40000gn/T/tmpn08pqq3u']
+[2024-07-30T17:37:03.671+0700] {standard_task_runner.py:85} INFO - Job 8: Subtask hello_world_task
+[2024-07-30T17:37:03.701+0700] {task_command.py:416} INFO - Running <TaskInstance: hello_world_dag.hello_world_task scheduled__2024-07-30T10:36:00+00:00 [running]> on host vuongs-macbook-pro.local
+[2024-07-30T17:37:03.733+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Ranga' AIRFLOW_CTX_DAG_ID='hello_world_dag' AIRFLOW_CTX_TASK_ID='hello_world_task' AIRFLOW_CTX_EXECUTION_DATE='2024-07-30T10:36:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-07-30T10:36:00+00:00'
+[2024-07-30T17:37:03.734+0700] {python.py:194} INFO - Done. Returned value was: Hello World!
+[2024-07-30T17:37:03.741+0700] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=hello_world_dag, task_id=hello_world_task, execution_date=20240730T103600, start_date=20240730T103703, end_date=20240730T103703
+[2024-07-30T17:37:03.774+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-07-30T17:37:03.782+0700] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-30T17:37:19.220+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_world_dag.hello_world_task scheduled__2024-07-30T10:36:00+00:00 [queued]>
+[2024-07-30T17:37:19.223+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_world_dag.hello_world_task scheduled__2024-07-30T10:36:00+00:00 [queued]>
+[2024-07-30T17:37:19.223+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2024-07-30T17:37:19.229+0700] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): hello_world_task> on 2024-07-30 10:36:00+00:00
+[2024-07-30T17:37:19.231+0700] {standard_task_runner.py:57} INFO - Started process 50351 to run task
+[2024-07-30T17:37:19.235+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hello_world_dag', 'hello_world_task', 'scheduled__2024-07-30T10:36:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/hello_world_dag/hello_world_dag.py', '--cfg-path', '/var/folders/y6/1jc_sv5133l2w19t8cj_c4s40000gn/T/tmp228kr0pp']
+[2024-07-30T17:37:19.236+0700] {standard_task_runner.py:85} INFO - Job 8: Subtask hello_world_task
+[2024-07-30T17:37:19.258+0700] {task_command.py:416} INFO - Running <TaskInstance: hello_world_dag.hello_world_task scheduled__2024-07-30T10:36:00+00:00 [running]> on host vuongs-macbook-pro.local
+[2024-07-30T17:37:19.288+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Ranga' AIRFLOW_CTX_DAG_ID='hello_world_dag' AIRFLOW_CTX_TASK_ID='hello_world_task' AIRFLOW_CTX_EXECUTION_DATE='2024-07-30T10:36:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-07-30T10:36:00+00:00'
+[2024-07-30T17:37:19.288+0700] {python.py:194} INFO - Done. Returned value was: Hello World!
+[2024-07-30T17:37:19.297+0700] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=hello_world_dag, task_id=hello_world_task, execution_date=20240730T103600, start_date=20240730T103719, end_date=20240730T103719
+[2024-07-30T17:37:19.340+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-07-30T17:37:19.349+0700] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

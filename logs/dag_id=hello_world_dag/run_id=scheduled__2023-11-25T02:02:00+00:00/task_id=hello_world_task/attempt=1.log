@@ -1,0 +1,13 @@
+[2023-11-25T09:06:50.091+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_world_dag.hello_world_task scheduled__2023-11-25T02:02:00+00:00 [queued]>
+[2023-11-25T09:06:50.094+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_world_dag.hello_world_task scheduled__2023-11-25T02:02:00+00:00 [queued]>
+[2023-11-25T09:06:50.094+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2023-11-25T09:06:50.105+0700] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): hello_world_task> on 2023-11-25 02:02:00+00:00
+[2023-11-25T09:06:50.107+0700] {standard_task_runner.py:57} INFO - Started process 72345 to run task
+[2023-11-25T09:06:50.109+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'hello_world_dag', 'hello_world_task', 'scheduled__2023-11-25T02:02:00+00:00', '--job-id', '195', '--raw', '--subdir', 'DAGS_FOLDER/hello_world_dag/hello_world_dag.py', '--cfg-path', '/var/folders/y6/1jc_sv5133l2w19t8cj_c4s40000gn/T/tmpcjltsf13']
+[2023-11-25T09:06:50.111+0700] {standard_task_runner.py:85} INFO - Job 195: Subtask hello_world_task
+[2023-11-25T09:06:50.134+0700] {task_command.py:416} INFO - Running <TaskInstance: hello_world_dag.hello_world_task scheduled__2023-11-25T02:02:00+00:00 [running]> on host vuongs-MacBook-Pro.local
+[2023-11-25T09:06:50.168+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Ranga' AIRFLOW_CTX_DAG_ID='hello_world_dag' AIRFLOW_CTX_TASK_ID='hello_world_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-25T02:02:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-25T02:02:00+00:00'
+[2023-11-25T09:06:50.169+0700] {python.py:194} INFO - Done. Returned value was: Hello World!
+[2023-11-25T09:06:50.177+0700] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=hello_world_dag, task_id=hello_world_task, execution_date=20231125T020200, start_date=20231125T020650, end_date=20231125T020650
+[2023-11-25T09:06:50.233+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-25T09:06:50.241+0700] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
