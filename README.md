@@ -1,4 +1,4 @@
-### start server (terminal1)
+### start server (terminal1) on port 0.0.0.0:8080 (default)
 ```shell
 airflow webserver
 ```
@@ -7,9 +7,14 @@ airflow webserver
 airflow scheduler
 ```
 
-### set AIRFLOW_HOME
+### set AIRFLOW_HOME correctly
 ```shell
-export AIRFLOW_HOME=/Users/vuong/labs/pythonProject/airflow_demo
+export AIRFLOW_HOME=/Users/vuong/labs/pythonProject/airflow-starter
+```
+
+### set dag_folder in airflow.cfg correctly
+```shell
+dags_folder = /Users/vuong/labs/pythonProject/airflow-starter/dags
 ```
 
 ### create new dag
@@ -72,3 +77,7 @@ airflow dags list
 ```shell
 airflow users  create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin
 ```
+ 
+
+fix issues:
+- https://www.restack.io/docs/airflow-knowledge-airflow-dag-not-showing
