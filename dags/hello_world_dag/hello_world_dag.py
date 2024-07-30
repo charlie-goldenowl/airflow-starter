@@ -1,5 +1,6 @@
 # datetime
 from datetime import timedelta, datetime
+import random
 
 # The DAG object
 from airflow import DAG
@@ -22,12 +23,14 @@ hello_world_dag = DAG('hello_world_dag',
                       description='Hello World DAG',
                       schedule='* * * * *',
                       catchup=False,
-                      tags=['example, helloworld']
+                      tags=['example', 'helloworld']
                       )
 
 
 # python callable function
 def print_hello():
+    if random.random() < 0.5:
+        raise Exception('Task failed randomly')
     return 'Hello World!'
 
 

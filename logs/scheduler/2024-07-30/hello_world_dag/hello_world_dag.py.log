@@ -100,3 +100,66 @@
 [2024-07-30T17:40:55.518+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:40:55.518+0700] {dag.py:2941} INFO - Sync 1 DAGs
 [2024-07-30T17:40:55.527+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:40:55.527+0700] {dag.py:3722} INFO - Setting next_dagrun for hello_world_dag to 2024-07-30T10:40:00+00:00, run_after=2024-07-30T10:41:00+00:00
 [2024-07-30T17:40:55.536+0700] {processor.py:179} INFO - Processing /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py took 0.190 seconds
+[2024-07-30T17:41:26.390+0700] {processor.py:157} INFO - Started process (PID=54264) to work on /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:41:26.390+0700] {processor.py:829} INFO - Processing file /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py for tasks to queue
+[2024-07-30T17:41:26.391+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:41:26.391+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:41:26.408+0700] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:41:26.525+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:41:26.525+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-07-30T17:41:26.534+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:41:26.534+0700] {dag.py:3722} INFO - Setting next_dagrun for hello_world_dag to 2024-07-30T10:41:00+00:00, run_after=2024-07-30T10:42:00+00:00
+[2024-07-30T17:41:26.544+0700] {processor.py:179} INFO - Processing /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py took 0.155 seconds
+[2024-07-30T17:41:57.385+0700] {processor.py:157} INFO - Started process (PID=54662) to work on /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:41:57.386+0700] {processor.py:829} INFO - Processing file /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py for tasks to queue
+[2024-07-30T17:41:57.387+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:41:57.387+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:41:57.403+0700] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:41:57.520+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:41:57.520+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-07-30T17:41:57.529+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:41:57.529+0700] {dag.py:3722} INFO - Setting next_dagrun for hello_world_dag to 2024-07-30T10:41:00+00:00, run_after=2024-07-30T10:42:00+00:00
+[2024-07-30T17:41:57.538+0700] {processor.py:179} INFO - Processing /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py took 0.153 seconds
+[2024-07-30T17:42:28.375+0700] {processor.py:157} INFO - Started process (PID=55153) to work on /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:42:28.376+0700] {processor.py:829} INFO - Processing file /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py for tasks to queue
+[2024-07-30T17:42:28.377+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:42:28.377+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:42:28.393+0700] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:42:28.509+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:42:28.509+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-07-30T17:42:28.518+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:42:28.518+0700] {dag.py:3722} INFO - Setting next_dagrun for hello_world_dag to 2024-07-30T10:42:00+00:00, run_after=2024-07-30T10:43:00+00:00
+[2024-07-30T17:42:28.527+0700] {processor.py:179} INFO - Processing /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py took 0.153 seconds
+[2024-07-30T17:42:59.352+0700] {processor.py:157} INFO - Started process (PID=55467) to work on /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:42:59.353+0700] {processor.py:829} INFO - Processing file /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py for tasks to queue
+[2024-07-30T17:42:59.354+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:42:59.354+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:42:59.370+0700] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:42:59.484+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:42:59.484+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-07-30T17:42:59.493+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:42:59.493+0700] {dag.py:3722} INFO - Setting next_dagrun for hello_world_dag to 2024-07-30T10:42:00+00:00, run_after=2024-07-30T10:43:00+00:00
+[2024-07-30T17:42:59.502+0700] {processor.py:179} INFO - Processing /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py took 0.150 seconds
+[2024-07-30T17:43:30.356+0700] {processor.py:157} INFO - Started process (PID=55862) to work on /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:43:30.357+0700] {processor.py:829} INFO - Processing file /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py for tasks to queue
+[2024-07-30T17:43:30.358+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:43:30.358+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:43:30.377+0700] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:43:30.498+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:43:30.498+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-07-30T17:43:30.507+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:43:30.507+0700] {dag.py:3722} INFO - Setting next_dagrun for hello_world_dag to 2024-07-30T10:43:00+00:00, run_after=2024-07-30T10:44:00+00:00
+[2024-07-30T17:43:30.516+0700] {processor.py:179} INFO - Processing /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py took 0.160 seconds
+[2024-07-30T17:44:01.329+0700] {processor.py:157} INFO - Started process (PID=56171) to work on /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:44:01.330+0700] {processor.py:829} INFO - Processing file /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py for tasks to queue
+[2024-07-30T17:44:01.331+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:44:01.331+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:44:01.347+0700] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:44:01.463+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:44:01.463+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-07-30T17:44:01.472+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:44:01.472+0700] {dag.py:3722} INFO - Setting next_dagrun for hello_world_dag to 2024-07-30T10:43:00+00:00, run_after=2024-07-30T10:44:00+00:00
+[2024-07-30T17:44:01.481+0700] {processor.py:179} INFO - Processing /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py took 0.152 seconds
+[2024-07-30T17:44:32.337+0700] {processor.py:157} INFO - Started process (PID=56466) to work on /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:44:32.337+0700] {processor.py:829} INFO - Processing file /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py for tasks to queue
+[2024-07-30T17:44:32.338+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:44:32.338+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:44:32.357+0700] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:44:32.482+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:44:32.481+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-07-30T17:44:32.491+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:44:32.490+0700] {dag.py:3722} INFO - Setting next_dagrun for hello_world_dag to 2024-07-30T10:44:00+00:00, run_after=2024-07-30T10:45:00+00:00
+[2024-07-30T17:44:32.500+0700] {processor.py:179} INFO - Processing /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py took 0.164 seconds
+[2024-07-30T17:45:03.418+0700] {processor.py:157} INFO - Started process (PID=56958) to work on /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:45:03.418+0700] {processor.py:829} INFO - Processing file /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py for tasks to queue
+[2024-07-30T17:45:03.420+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:45:03.419+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:45:03.437+0700] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:45:03.562+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:45:03.562+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-07-30T17:45:03.572+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:45:03.572+0700] {dag.py:3722} INFO - Setting next_dagrun for hello_world_dag to 2024-07-30T10:45:00+00:00, run_after=2024-07-30T10:46:00+00:00
+[2024-07-30T17:45:03.582+0700] {processor.py:179} INFO - Processing /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py took 0.164 seconds
+[2024-07-30T17:45:21.777+0700] {processor.py:157} INFO - Started process (PID=57169) to work on /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:45:21.777+0700] {processor.py:829} INFO - Processing file /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py for tasks to queue
+[2024-07-30T17:45:21.779+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:45:21.779+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:45:21.805+0700] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py
+[2024-07-30T17:45:22.327+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:45:22.326+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-07-30T17:45:22.337+0700] {logging_mixin.py:154} INFO - [2024-07-30T17:45:22.336+0700] {dag.py:3722} INFO - Setting next_dagrun for hello_world_dag to 2024-07-30T10:45:00+00:00, run_after=2024-07-30T10:46:00+00:00
+[2024-07-30T17:45:22.348+0700] {processor.py:179} INFO - Processing /Users/vuong/labs/pythonProject/airflow-starter/dags/hello_world_dag/hello_world_dag.py took 0.572 seconds
